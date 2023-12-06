@@ -10,6 +10,9 @@ body{
 
 .header,
 .footer{
+    padding-left: 200px;
+    padding-right: 200px;
+
     background-color: #1F2937;
     height: 65px;
 }
@@ -23,23 +26,29 @@ body{
 }
 
 .container-1{
+    padding-left: 200px;
+    padding-right: 200px;
+
     background-color: #1F2937;
-    height: 280px;
+    height: 400px;
 }
 
 .container-2{
+    padding-left: 200px;
+    padding-right: 200px;
+
     background-color: white;
-    flex: 1;
+    height: 450px;
 }
 
 .quote{
     background-color: #E5E7Eb;
-    flex: 1;
+    height: 400px;
 }
 
 .link{
     background-color: white;
-    height: 250px;
+    height: 300px;
 }
 
 /* Header */
@@ -49,8 +58,8 @@ body{
     justify-content: space-between;
     align-items: center;
 
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .title{
@@ -74,10 +83,7 @@ ul{
 
 /* Content-1 */
 
-.container-1{
-    padding-left: 400px;
-    padding-right: 400px;
-      
+.container-1{    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -112,15 +118,53 @@ ul{
 }
 
 .placeholder{
-    width: 520px;
+    width: 500px;
     height: 225px;
     background-color: grey;
     color: #E5E7Eb;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-shrink: 0;
 }
 
+/* content-2 */
+
 .text-3{
-    text-align: center;
-    vertical-align: middle;
+    display:flex;
+    justify-content: center;
+
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
+
+.cards{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+.text-4{
+    text-align: center;
+    padding-top: 5px;
+}
+
