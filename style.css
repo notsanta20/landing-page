@@ -171,8 +171,8 @@ ul{
 /* Quote */
 
 .quote{
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 300px;
+    padding-right: 300px;
 
     display: flex;
     flex-direction: column;
@@ -183,7 +183,7 @@ ul{
 .text-5{
 ;
 
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 200;
     font-style: italic;
     color: #1F2937;
@@ -194,4 +194,54 @@ ul{
     font-weight: bold;
     
     align-self: flex-end;
+}
+
+/* Link */
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #E5E7Eb;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #3882F6;
+    height: 120px;
+    width: 700px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.text-7{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.button-2{
+    font-weight: 600;
+    color: #E5E7Eb;
+    background-color: #3882F6;
+    border-color: #E5E7Eb;
+    border: 2px solid;
+    border-radius: 5px;
+
+    padding: 6px 30px;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #E5E7Eb;
 }
