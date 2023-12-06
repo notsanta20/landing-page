@@ -168,3 +168,30 @@ ul{
     padding-top: 5px;
 }
 
+/* Quote */
+
+.quote{
+    padding-left: 400px;
+    padding-right: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.text-5{
+;
+
+    font-size: 26px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.text-6{
+    font-weight: bold;
+    
+    align-self: flex-end;
+}
